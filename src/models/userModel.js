@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 
 const db = mysql.createConnection({
-  host: 'localhost',     // WSL MySQL corre aquí
+  host: 'localhost',     
   user: 'root',
-  password: 'root',      // ← la que definimos arriba
+  password: 'root',      
   database: 'db_clinica'
 });
 
